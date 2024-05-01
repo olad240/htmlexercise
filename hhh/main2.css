@@ -1,0 +1,103 @@
+body{
+    background-color:rgba(184, 135, 11, 0.921);
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    padding: 10%;
+    font-size: 1.5rem;
+    color: purple;
+    text-transform: capitalize;
+    max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+  border: 1.5px solid black;
+  border-radius: 2px;
+}
+
+a:visited {
+        color: brown;
+}
+
+a:hover, a:focus{
+     color: rgba(165, 42, 42, 0.8);
+     background-color: rgba(0, 0, 0, 0.579);
+}
+
+a:active{
+      color: red;
+}
+
+/* .spn {
+   text-decoration: line-through;
+   text-decoration-color: red;
+} */
+/*  p.cyg{
+   border-bottom-style: solid;
+    border-bottom: 5;
+    border-bottom-color: black;
+ }
+ p.cyg2{
+    border-style: solid;
+    border-radius: 5px;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    margin: 50px;
+    padding: 50px;
+    border-width: 50px;
+    text-align: center;
+    outline: solid black 5px;
+ }
+
+ div.text{
+    font-size: larger;
+ }
+ p.cyg3{
+    border-left: 3px solid;
+}
+p.cyg4{
+    border:solid;
+    border-width: 10px 15px 50px 50px;
+}
+p.txtbg{
+   background-color: cadetblue;
+   text-decoration-line: line-through;
+   text-decoration-style: dashed;
+   text-decoration-color: brown;
+}
+div.frm1{
+   text-align: center;
+   font-family: monospace;
+   text-transform: uppercase;
+   font-size: larger;
+   border: 5px solid black;
+   border-radius: 5px;
+   border-bottom-style: double;
+   margin: auto;
+   text-decoration-line: underline;
+   text-decoration-color:red;
+   text-decoration-style: wavy;
+}
+div.frm2{
+   text-align: right;
+   font-family: 'Courier New', Courier, monospace;
+   direction: rtl;
+   unicode-bidi: bidi-override;
+   text-decoration-line: overline;
+   text-decoration-color: black;
+   letter-spacing: 2px;
+}
+div.frm3{
+   text-align: justify;
+   text-indent: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   
+}
+#span1{
+      font-family: 'Courier New', Courier, monospace;
+
+}
+ */

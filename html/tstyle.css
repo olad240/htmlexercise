@@ -1,0 +1,35 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    color: #333;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: 800;
+}
+
+table {
+    border: 1px solid#ddd ;
+    font-family: sans-serif;
+    font-size: medium;
+    text-transform: capitalize;
+    line-height: 1.7;
+    width: 100%;
+}
+th {
+    background-color: #04aa6d;
+    color: whitesmoke;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:hover {
+    background-color: grey;
+    color: whitesmoke;
+}

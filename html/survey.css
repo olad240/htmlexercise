@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+    color: #333;
+    margin: 50px;
+    font-size: 1.5rem;
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    color: aliceblue;
+     background-color: black;
+     font-size: 25px;
+     padding: 30px 15px 30px 70px ;
+     border-radius: 20px;
+     text-decoration: none;
+}
+ul.list {
+    padding-left: 0;
+    margin-bottom: 50px;
+}

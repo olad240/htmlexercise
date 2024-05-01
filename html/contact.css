@@ -1,0 +1,33 @@
+body {
+    font-size: 2rem;
+    background-color: bisque;
+}
+
+.block {
+    float: left;
+    background-color: black;
+    width: 30vw;
+    height: 30vw;
+    padding: 1rem;
+    color: whitesmoke;
+}
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+section {
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0;
+   /*  overflow: auto; */
+   display: flow-root;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+      
+      body {
+        margin: 5rem;
+        min-height: 100vh;
+        min-width: 25%;
+        justify-content: center;
+        font-family: "Inria serif", sans-serif;
+      }
+   
+
+      .heading {
+        border-bottom: 0.5rem solid black;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+        align-items: baseline;
+      }
+       
+      .heading-topic h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+      }
+      p {
+        line-height: 30%;
+      }
+
+      .heading-date p {
+        margin-block-end: 0;
+        line-height: 0;
+      }
+      .first-all {
+        display: flex;
+        justify-content: space-between;
+      }
+      .first p {
+        display: block;
+      }
+      table {
+        font-size: 2rem;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        width: 100%;
+      }
+      th {
+        padding: 1rem 0;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      td {
+        height: 4rem;
+        width: 25%;
+        font-size: 14px;
+        border: 1px solid rgba(170, 169, 169, 0.629);;
+    
+      }
+      td:last-child {
+        width: 90%;
+      }
+      th {
+        border: 1px solid rgba(170, 169, 169, 0.629);
+        border-top: none;
+      }
+
+      th, td {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+      }
+      .listx {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+        line-height: 2rem;
+
+      }
+      .list {
+        list-style-type: none;
+        width: 200px;
+      }
+      
+      .list li {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px;
+     }
+     .list li:first-child{
+      border-bottom: 1px solid #dbd9d9;
+
+     }
+     .list li:last-child{
+      border-top: 2px solid #333;
+     }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="heading-topic">
+          <h1>QOUTE</h1>
+          <span>#WQH12342</span>
+        </div>
+        <div class="heading-date">
+          <p>Issue Date: 12/11/11</p>
+          <p>Due Date: 12/12/11</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="first-all">
+        <div class="first">
+          <p style="font-weight: bold">From:</p>
+          <p>FKT LIMITED</p>
+          <p>fkt@gmail.com</p>
+          <p>233-24-898-2103</p>
+          <p>ws-2789-40</p>
+        </div>
+
+        <div class="second">
+          <p style="font-weight: bold">To:</p>
+          <p>Abose micheal</p>
+          <p>abosemike@gmail.com</p>
+          <p>+2332309958</p>
+          <p>ws-2789-40</p>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Unit price</th>
+          <th>Quantity</th>
+          <th>Item total</th>
+        </tr>
+        <tr>
+          <td>ceiling rose</td>
+          <td>$7:00</td>
+          <td>13</td>
+          <td>$19:00</td>
+        </tr>
+        <tr>
+          <td>Nexan(1.5x3)</td>
+          <td>$320.00</td>
+          <td>4</td>
+          <td>$1280.00</td>
+        </tr>
+      </table>
+      <div class="listx">
+        <ul class="list">
+          <li>
+            <strong>sub total</strong>
+            <span>$1371.00</span>
+          </li>
+
+          <li>
+            <strong>Vat(4%)</strong>
+            <span>$54.84</span>
+          </li>
+         
+          <li>
+            <strong>Total</strong>
+            <span>$1425.84</span>
+          </li>
+          </ul>
+      </div>
+    </main>
+  </body>
+</html>
