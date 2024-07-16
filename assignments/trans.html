@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 30px;
+        width: 30px;
+        background-color: bisque;
+        transition:height 2s, width 2s, transform 2s;
+        transition-timing-function: ease;
+        animation-name: ass;
+        animation-duration: 5s;
+    }
+    @keyframes ass {
+        from {background-color: bisque; }
+        to {background-color:whitesmoke;}
+    }
+
+    div:hover {
+        height: 300px;
+        width: 300px;
+        text-align: center;
+transform: rotate(360deg);
+    }
+</style>
+<body>
+    <header>
+        <h2>Transition</h2>
+    </header>
+    <div>CSS</div>
+</body>
+</html>

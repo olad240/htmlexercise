@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+.box_header {
+    height: 95vh;
+    /* border: 1px solid; */
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    background-color: lightgrey;
+}
+.box_header div {
+    border: 1px solid;
+    padding: 15px;
+    background-color: white;
+}
+.one {
+    grid-column: 1 / span 3;
+}
+.four {
+    grid-column: 3;
+   grid-row: 2 / span 4;
+}
+.seven {
+    grid-column: 1 / span 2;
+}
+
+           

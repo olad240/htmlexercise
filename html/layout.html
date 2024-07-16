@@ -5,20 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .footer {
+    <!-- <style>
+        .footers  {
             text-align: center;
             background-color: rgb(67, 69, 70);
             color: white;
             padding: 35px;
             font-size: 3rem;
+            margin-bottom: 0;
         }
-    </style>
+        .listx {
+            float: left;
+            padding: 35px;
+            background-color: rgba(147, 147, 148, 0.71); 
+            margin-right: 15px;
+            height: 185px; 
+            margin-top: 0;        
+        }
+        .list {
+            list-style-type: none;
+        }
+        footer p {
+            font-size: 3rem;
+            text-align: center;
+            color: white;
+            background-color: rgb(72, 73, 73);
+            
+        }
+    </style> -->
+    <style>
+    * {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ 
+
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+</style>
 </head>
 <body>
     <h2>css layout float</h2>
     <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
     <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-    <h1 class="footer">cities</h1>
+
+    <header>
+    <h1>cities</h1>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+               <li><a href="#">London</a></li>
+               <li><a href="#">paris</li>
+               <li><a href="#">tokyo</a></li>
+            </ul>   
+        </nav>
+    </section>
+
+    <article>
+        <h1>London</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, rerum quisquam excepturi autem quae veritatis magni obcaecati earum, fugit error unde tempora aliquid facere, sequi modi quidem? Ad, porro quo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam amet quam harum qui, eius inventore quos maiores dolores blanditiis ut sunt, praesentium accusantium quae illum? Est ratione facere voluptatum ipsa.</p>
+    </article>
+    <footer>
+        <p>footer</p>
+    </footer>
 </body>
 </html>

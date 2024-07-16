@@ -1,0 +1,41 @@
+body {
+    color: #333;
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+    background-color: grey;
+    border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+}
+#list1 {
+    border: none;
+    padding: 10px 10px 3px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+#list2 {
+    border: none;
+    padding: 10px 10px 3px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+#list3 {
+    border: none;
+    padding: 10px 10px 3px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+#list4 {
+    border: none;
+    padding: 10px 10px 3px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
